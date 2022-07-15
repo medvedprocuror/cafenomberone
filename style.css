@@ -1,0 +1,24 @@
+* {
+    font-family: "Segoe UI", serif;
+    font-weight: 200;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: calc(100vh - 100px);
+    margin-top: 100px;
+    background-color: #E0CFB1;
+    transition: 1s;
+    color: #E0CFB1;
+}
+
+q {
+    font-family: Times, serif;
+    /* Шрифт с засечками */
+    font-style: oblique;
+    /* Наклонное начертание текста */
+    color: #333;
+    quotes: "\00ab""\00bb";
+}
